@@ -1,0 +1,515 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Sansita";
+    src: url(../fonts/SansitaSwashed-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1132px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding-top: 19px;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+}
+
+.navigation li a {
+    font-size: 22px;
+    font-family: "Poppins SemiBold";
+    line-height: 100%;
+    color: #F5F5F5;
+}
+
+.home {
+    color: #E9BD8C !important;
+}
+
+#hero_section {
+    margin-top: -123px;
+    padding-top: 277px;
+    padding-bottom: 222px;
+    background-image: url(../images/main_bg-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #E9BD8C;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    font-size: 74px;
+    font-weight: 400;
+    font-family: "Sansita";
+    color: #F5F5F5;
+    line-height: 100%;
+}
+
+.shop-button {
+    margin-top: 101px;
+    display: inline-block;
+}
+
+.shop_button {
+    width: 194px;
+    padding: 24px 0px 24px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #933C24;
+    border-radius: 8px;
+}
+
+.shop_button p {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #F5F5F5;
+    line-height: 100%;
+}
+
+.learn-more_link {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #E9BD8C;
+    line-height: 100%;
+    margin-left: 19px;
+}
+
+#shop_now {
+    padding-top: 130px;
+}
+
+.title1 {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Sansita";
+    color: #111111;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.products-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 26px;
+}
+
+.product-card1 {
+    width: 360px;
+    height: 435px;
+    border-radius: 8px;
+    background-image: url(../images/pcards-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 29px 0px 29px;
+}
+
+.p-img1 {
+    margin-left: 67px;
+}
+
+.price-and-info {
+    display: flex;
+    align-items: center;
+    gap: 198px;
+    margin-top: 17px;
+    margin-bottom: 37px;
+}
+
+.price-and-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.product-card1 h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter";
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.name-and-add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add_button {
+    width: 71px;
+    padding: 16px 12px;
+    background-color: #933C24;
+    border-radius: 4px;
+}
+
+.add_button p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter";
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.pcard2 .p-img1 {
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+.pcard3 .p-img1 {
+    margin-left: -7px;
+    margin-top: 5px;
+}
+
+.pcard4 .p-img1 {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.pcard5 .p-img1 {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.pcard6 .p-img1 {
+    margin-left: 25px;
+    margin-top: -5px;
+}
+
+#advertisement_section {
+    margin-top: 130px;
+    padding-bottom: 180px;
+    background-image: url(../images/ad-bg-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ad-card {
+    width: 343px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 333px;
+    padding-top: 70px;
+}
+
+.ad-card pre {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Sansita";
+    color: #933C24;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.ad-card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #5D5D5D;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.ad-card .learn-more_button {
+    width: 202px;
+    padding: 23px 35px;
+    border-radius: 10px;
+    background-color: #933C24;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #F9F6F1;
+}
+
+#learn_more {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.title2 {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Sansita";
+    color: #111111;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.options-bar {
+    border-bottom: 2px solid #D9D9D9;
+    margin-bottom: 121px;
+}
+
+.options-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.options-bar ul li a {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+    color: #5D5D5D;
+    line-height: 100%;
+}
+
+.cake-option {
+    color: #933C24 !important;
+    text-decoration: underline;
+}
+
+.img-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 26px;
+}
+
+#about-us_section {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-image: url(../images/ab-us-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-card {
+    width: 343px;
+    height: 289px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 415px;
+}
+
+.about-card h1 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Sansita";
+    color: #F5F5F5;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #B9B9B9;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.about-card .read-more_button {
+    width: 195px;
+    padding: 23px 35px;
+    background-color: #933C24;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #F5F5F5;
+}
+
+#featureds_section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.title3 {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Sansita";
+    color: #111111;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.icards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 26px;
+}
+
+.name-and-price {
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    margin-left: 35px;
+}
+
+.name-and-price h1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #000000;
+    line-height: 100%;
+    margin-top: 31px;
+}
+
+footer {
+    background-image: url(../images/footer-bgi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #e9bd8d7a;
+}
+
+.social-media_footer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.social-media_footer li:first-child {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #E9BD8D;
+    line-height: 100%;
+}
+
+.social-media_footer p {
+    margin-right: 19px;
+}
+
+.bottom-footer {
+    display: flex;
+    gap: 104px;
+    margin-top: 52px;
+}
+
+.bottom-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.bottom-footer ul li:first-child {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Inter";
+    color: #E9BD8D;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+
+.bottom-footer ul li {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+    line-height: 100%;
+}
+
+.bottom-footer ul li a {
+    color: #F5F5F5;
+}
+
+.new-foods {
+    display: flex;
+    margin-left: 184px;
+}
+
+.new {
+    display: flex;
+}
+
+.new h2:first-child {
+    font-size: 18px;
+    font-family: "Poppins Regular";
+    color: #E9BD8C;
+    margin-left: 23px;
+}
+
+.new h2:last-child {
+    font-size: 24px;
+    font-family: "Poppins Medium";
+    color: #F5F5F5;
+    margin-left: 23px;
+}
+
+.rights {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #737373;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 125px;
+}
